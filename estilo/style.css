@@ -1,1 +1,91 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Poppins", cursive, sans-serif;
+    --fonte3: "Sriracha", cursive;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    min-width: 100vh;
+    background-color: rgba(205, 202, 202, 0.803);
+    font-family: var(--fonte1);
+}
+header{
+    background-color:#330F04;
+    color:#D9C6BF;
+    text-align: center;
+    font-family: var(--fonte2);
+}
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+   
+    font-size: 5vw;
+}
+header p{
+    padding-bottom: 30px;
+    font-size: 2vw;
+}
+a{
+    color:#D9C6BF;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 3vw;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+}
+section p{
+    padding: 2em;
+}
+.normal{
+    background-color: #F4EBE5;
+    color:#1F1204;
+}
+.imagem{
+    background-color:#402422 ;
+    color: #ede6e3;
+    box-shadow: inset 0px 0px 30px 10px rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.imagem p{
+    background-color:#59343182 ;
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1px 1px 0px black;
+}
+#img1{
+    background-image: url("../imagens/flor.jpg");
+    background-position: center center;
+}
+
+#img2{
+    background-image: url("../imagens/carta.jpg");
+    background-position: center center;
+}
+
+
+
+footer{
+    background-color: #330F04;
+    text-align: center;
+    color:#D9C6BF;
+    padding: 10px;
+    font-size: 1vw;
+}
+
